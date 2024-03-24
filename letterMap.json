@@ -1,0 +1,102 @@
+{
+    "rough": {
+        "english": "Rough Breathing",
+        "greek": "Δασὺ Πνεῦμα"
+    },
+    "α": {
+        "english": "Alpha",
+        "greek": "Ἄλφα"
+    },
+    "β": {
+        "english": "Beta",
+        "greek": "Βῆτα"
+    },
+    "γ": {
+        "english": "Gamma",
+        "greek": "Γάμμα"
+    },
+    "δ": {
+        "english": "Delta",
+        "greek": "Δέλτα"
+    },
+    "ε": {
+        "english": "Epsilon",
+        "greek": "Ἒ Ψιλόν"
+    },
+    "ζ": {
+        "english": "Zeta",
+        "greek": "Ζήτα"
+    },
+    "η": {
+        "english": "Eta",
+        "greek": "Ἦτα"
+    },
+    "θ": {
+        "english": "Theta",
+        "greek": "Θῆτα"
+    },
+    "ι": {
+        "english": "Iota",
+        "greek": "Ἰότα"
+    },
+    "κ": {
+        "english": "Kappa",
+        "greek": "Κάππα"
+    },
+    "λ": {
+        "english": "Lambda",
+        "greek": "Λάμβδα"
+    },
+    "μ": {
+        "english": "Mu",
+        "greek": "Μῦ"
+    },
+    "ν": {
+        "english": "Nu",
+        "greek": "Νῦ"
+    },
+    "ξ": {
+        "english": "Xi",
+        "greek": "Ξῖ"
+    },
+    "ο": {
+        "english": "Omicron",
+        "greek": "Ὂ Μικρόν"
+    },
+    "π": {
+        "english": "Pi",
+        "greek": "Πῖ"
+    },
+    "ρ": {
+        "english": "Rho",
+        "greek": "Ῥῶ"
+    },
+    "σ": {
+        "english": "Sigma",
+        "greek": "Σίγμα"
+    },
+    "τ": {
+        "english": "Tau",
+        "greek": "Ταῦ"
+    },
+    "υ": {
+        "english": "Upsilon",
+        "greek": "ὖ Ψιλόν"
+    },
+    "φ": {
+        "english": "Phi",
+        "greek": "Φῖ"
+    },
+    "χ": {
+        "english": "Chi",
+        "greek": "Χῖ"
+    },
+    "ψ": {
+        "english": "Psi",
+        "greek": "Ψῖ"
+    },
+    "ω": {
+        "english": "Omega",
+        "greek": "Ὦ Μέγα"
+    }
+}

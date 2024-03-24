@@ -1,0 +1,916 @@
+{
+    "pronunciations": [
+        {
+            "shortname": "recattic",
+            "name": [
+                "Reconstructed Attic",
+                "Late Classical Attic",
+                "Early Koine"
+            ],
+            "desc": "This is the pronunciation at the end of the Attic period and the beginning of the Koine period. Compared to earlier Attic, it had lost the pronunciation of the long diphthongs. It preserves aspirates and gemination.",
+            "pronunciation": {
+                "rough": {
+                    "ipa": "h"
+                },
+                "α": {
+                    "ipa": ""
+                },
+                "ε": {
+                    "ipa": ""
+                },
+                "ι": {
+                    "ipa": ""
+                },
+                "ο": {
+                    "ipa": ""
+                },
+                "υ": {
+                    "ipa": ""
+                },
+                "η": {
+                    "ipa": ""
+                },
+                "ω": {
+                    "ipa": ""
+                },
+                "β": {
+                    "ipa": ""
+                },
+                "μβ": {
+                    "ipa": ""
+                },
+                "ζ": {
+                    "ipa": ""
+                },
+                "σ": {
+                    "ipa": [
+                        {
+                            "value": "z̠",
+                            "desc": "before a voiced consonant"
+                        },
+                        {
+                            "value": "s̠",
+                            "desc": "before a voiceless consonant"
+                        }
+                    ]
+                },
+                "γ": {
+                    "ipa": ""
+                },
+                "γγ": {
+                    "ipa": ""
+                },
+                "δ": {
+                    "ipa": ""
+                },
+                "νδ": {
+                    "ipa": ""
+                },
+                "χ": {
+                    "ipa": ""
+                },
+                "γχ": {
+                    "ipa": ""
+                },
+                "θ": {
+                    "ipa": ""
+                },
+                "φ": {
+                    "ipa": ""
+                },
+                "κ": {
+                    "ipa": ""
+                },
+                "γκ": {
+                    "ipa": ""
+                },
+                "τ": {
+                    "ipa": ""
+                },
+                "π": {
+                    "ipa": ""
+                },
+                "ρ": {
+                    "ipa": [
+                        {
+                            "value": "r̥",
+                            "desc": "before/after consonant"
+                        },
+                        {
+                            "value": "ɾ",
+                            "desc": "between vowels"
+                        }
+                    ]
+                },
+                "ξ": {
+                    "ipa": "ks̠"
+                },
+                "ψ": {
+                    "ipa": "ps̠"
+                },
+                "λ": {
+                    "ipa": "l"
+                },
+                "μ": {
+                    "ipa": "m"
+                },
+                "ν": {
+                    "ipa": "n"
+                },
+                "αυ": {
+                    "ipa": ""
+                },
+                "ευ": {
+                    "ipa": ""
+                },
+                "ου": {
+                    "ipa": ""
+                },
+                "αι": {
+                    "ipa": ""
+                },
+                "ει": {
+                    "ipa": ""
+                },
+                "υι": {
+                    "ipa": ""
+                },
+                "οι": {
+                    "ipa": ""
+                }
+            }
+        },
+        {
+            "shortname": "samluc",
+            "name": [
+                "Lucian - Samosatene",
+                "Lucian"
+            ],
+            "desc": "This variant of the Lucian pronunciation is intended to represent a roughly 2nd century A.D. pronunciation of greek. It notably preserves phonemic vowel and consonant length, takes the aspirates to their modern values, and leaves most vowels and diphthongs at various intermediate points.",
+            "pronunciation": {
+                "rough": {
+                    "ipa": "h"
+                },
+                "α": {
+                    "ipa": "a"
+                },
+                "ε": {
+                    "ipa": "ɛ"
+                },
+                "ι": {
+                    "ipa": "i"
+                },
+                "ο": {
+                    "ipa": "o̞"
+                },
+                "υ": {
+                    "ipa": "y"
+                },
+                "η": {
+                    "ipa": "eː"
+                },
+                "ω": {
+                    "ipa": "o̞ː"
+                },
+                "β": {
+                    "ipa": "β"
+                },
+                "μβ": {
+                    "ipa": "mb"
+                },
+                "ζ": {
+                    "ipa": "z̠ː"
+                },
+                "σ": {
+                    "ipa": [
+                        {
+                            "value": "z̠",
+                            "desc": "before a voiced consonant"
+                        },
+                        {
+                            "value": "s̠",
+                            "desc": "before a voiceless consonant"
+                        }
+                    ]
+                },
+                "γ": {
+                    "ipa": [
+                        {
+                            "value": "ɣ",
+                            "desc": "before α, ο, ου (back vowels)"
+                        },
+                        {
+                            "value": "ʝ",
+                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
+                        }
+                    ]
+                },
+                "γγ": {
+                    "ipa": [
+                        {
+                            "value": "ŋg",
+                            "desc": "before α, ο, ου (back vowels)"
+                        },
+                        {
+                            "value": "ɲɟ",
+                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
+                        }
+                    ]
+                },
+                "δ": {
+                    "ipa": "ð"
+                },
+                "νδ": {
+                    "ipa": "nd"
+                },
+                "χ": {
+                    "ipa": [
+                        {
+                            "value": "x",
+                            "desc": "before α, ο, ου (back vowels)"
+                        },
+                        {
+                            "value": "ç",
+                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
+                        }
+                    ]
+                },
+                "γχ": {
+                    "ipa": [
+                        {
+                            "value": "ŋx",
+                            "desc": "before α, ο, ου (back vowels)"
+                        },
+                        {
+                            "value": "ɲç",
+                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
+                        }
+                    ]
+                },
+                "θ": {
+                    "ipa": "θ"
+                },
+                "φ": {
+                    "ipa": "ɸ"
+                },
+                "κ": {
+                    "ipa": [
+                        {
+                            "value": "k",
+                            "desc": "before α, ο, ου (back vowels)"
+                        },
+                        {
+                            "value": "c",
+                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
+                        }
+                    ]
+                },
+                "γκ": {
+                    "ipa": [
+                        {
+                            "value": "ŋk",
+                            "desc": "before α, ο, ου (back vowels)"
+                        },
+                        {
+                            "value": "ɲc",
+                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
+                        }
+                    ]
+                },
+                "τ": {
+                    "ipa": "t"
+                },
+                "π": {
+                    "ipa": "p"
+                },
+                "ρ": {
+                    "ipa": [
+                        {
+                            "value": "r̥",
+                            "desc": "before/after consonant"
+                        },
+                        {
+                            "value": "ɾ",
+                            "desc": "between vowels"
+                        }
+                    ]
+                },
+                "ξ": {
+                    "ipa": "ks̠"
+                },
+                "ψ": {
+                    "ipa": "ps̠"
+                },
+                "λ": {
+                    "ipa": "l"
+                },
+                "μ": {
+                    "ipa": "m"
+                },
+                "ν": {
+                    "ipa": "n"
+                },
+                "αυ": {
+                    "ipa": [
+                        {
+                            "value": "aβʷ",
+                            "desc": "before a voiced consonant"
+                        },
+                        {
+                            "value": "aɸʷ",
+                            "desc": "before a voiceless consonant"
+                        }
+                    ]
+                },
+                "ευ": {
+                    "ipa": [
+                        {
+                            "value": "e̞βʷ",
+                            "desc": "before a voiced consonant"
+                        },
+                        {
+                            "value": "aɸʷ",
+                            "desc": "before a voiceless consonant"
+                        }
+                    ]
+                },
+                "ου": {
+                    "ipa": "uː"
+                },
+                "αι": {
+                    "ipa": "æe̯̞"
+                },
+                "ει": {
+                    "ipa": "iː"
+                },
+                "υι": {
+                    "ipa": "yː"
+                },
+                "οι": {
+                    "ipa": "ø̞y̯"
+                }
+            }
+        },
+        {
+            "shortname": "buthian",
+            "name": [
+                "Buthian - without palatalization",
+                "Buthian"
+            ],
+            "desc": "This is the standard variant of the Buthian pronunciation. It evolves all letters to their modern values, except for οι, υ and η, which it leaves with late Koine values. The rough breathing remains pronounced. The standard variant ignores palatalization. All vowel and consonant lengths are ignored. It reasonably represents the pronunciation of Greek in the Byzantine period.",
+            "pronunciation": {
+                "rough": {
+                    "ipa": "h"
+                },
+                "α": {
+                    "ipa": "a"
+                },
+                "ε": {
+                    "ipa": "ɛ"
+                },
+                "ι": {
+                    "ipa": "i"
+                },
+                "ο": {
+                    "ipa": ""
+                },
+                "υ": {
+                    "ipa": "y"
+                },
+                "η": {
+                    "ipa": ""
+                },
+                "ω": {
+                    "ipa": ""
+                },
+                "β": {
+                    "ipa": "β"
+                },
+                "μβ": {
+                    "ipa": "mb"
+                },
+                "ζ": {
+                    "ipa": "z̠"
+                },
+                "σ": {
+                    "ipa": [
+                        {
+                            "value": "z̠",
+                            "desc": "before a voiced consonant"
+                        },
+                        {
+                            "value": "s̠",
+                            "desc": "before a voiceless consonant"
+                        }
+                    ]
+                },
+                "γ": {
+                    "ipa": "ɣ"
+                },
+                "γγ": {
+                    "ipa": "ng"
+                },
+                "δ": {
+                    "ipa": "ð"
+                },
+                "νδ": {
+                    "ipa": "nd"
+                },
+                "χ": {
+                    "ipa": "x"
+                },
+                "γχ": {
+                    "ipa": "ŋx"
+                },
+                "θ": {
+                    "ipa": "θ"
+                },
+                "φ": {
+                    "ipa": "ɸ"
+                },
+                "κ": {
+                    "ipa": "k"
+                },
+                "γκ": {
+                    "ipa": "ŋk"
+                },
+                "τ": {
+                    "ipa": "t"
+                },
+                "π": {
+                    "ipa": "p"
+                },
+                "ρ": {
+                    "ipa": [
+                        {
+                            "value": "r",
+                            "desc": "before/after consonant"
+                        },
+                        {
+                            "value": "ɾ",
+                            "desc": "between vowels"
+                        }
+                    ]
+                },
+                "ξ": {
+                    "ipa": "ks̠"
+                },
+                "ψ": {
+                    "ipa": "ps̠"
+                },
+                "λ": {
+                    "ipa": "l"
+                },
+                "μ": {
+                    "ipa": "m"
+                },
+                "ν": {
+                    "ipa": "n"
+                },
+                "αυ": {
+                    "ipa": [
+                        {
+                            "value": "",
+                            "desc": "before a voiced consonant"
+                        },
+                        {
+                            "value": "",
+                            "desc": "before a voiceless consonant"
+                        }
+                    ]
+                },
+                "ευ": {
+                    "ipa": [
+                        {
+                            "value": "",
+                            "desc": "before a voiced consonant"
+                        },
+                        {
+                            "value": "",
+                            "desc": "before a voiceless consonant"
+                        }
+                    ]
+                },
+                "ου": {
+                    "ipa": "u"
+                },
+                "αι": {
+                    "ipa": ""
+                },
+                "ει": {
+                    "ipa": "i"
+                },
+                "υι": {
+                    "ipa": ""
+                },
+                "οι": {
+                    "ipa": ""
+                }
+            }
+        },
+        {
+            "shortname": "palbuth",
+            "name": [
+                "Buthian - with palatalization",
+                "Buthian"
+            ],
+            "desc": "This is a more recent variant of the Buthian pronunciation. It evolves all letters to their modern values, except for οι, υ and η, which it leaves with late Koine values. The rough breathing remains pronounced. This recent variant requires palatalization. All vowel and consonant lengths are ignored. It reasonably represents the pronunciation of Greek in the Byzantine period."
+        },
+        {
+            "shortname": "modern",
+            "name": [
+                "Modern"
+            ],
+            "desc": "This is the standard phonology of modern Greek. It merges most vowels and dipthongs with ι in a process called iotacism, it has no aspirates nor geminates, and it palatalizes several consonants."
+        },
+        {
+            "shortname": "erasmian",
+            "name": [
+                "Erasmian"
+            ],
+            "desc": "This is the pronunciation of classical Attic created by Erasmus. This pronunciation is essentially the same as the modern Classical Attic reconstruction, with the only major error being the pronunciation of ει. The value given by Erasmus is significantly more conservative than even the Classical Attic value, likely predating 700 B.C.. The name Erasmian is often used incorrectly to represent a pronunciation system that roughly follows the speakers native phonology. For an example of such a system, see the US Conventional system.",
+            "pronunciation": {
+                "rough": {
+                    "ipa": "h"
+                },
+                "α": {
+                    "ipa": ""
+                },
+                "ε": {
+                    "ipa": ""
+                },
+                "ι": {
+                    "ipa": ""
+                },
+                "ο": {
+                    "ipa": ""
+                },
+                "υ": {
+                    "ipa": ""
+                },
+                "η": {
+                    "ipa": ""
+                },
+                "ω": {
+                    "ipa": ""
+                },
+                "β": {
+                    "ipa": ""
+                },
+                "μβ": {
+                    "ipa": ""
+                },
+                "ζ": {
+                    "ipa": ""
+                },
+                "σ": {
+                    "ipa": [
+                        {
+                            "value": "z̠",
+                            "desc": "before a voiced consonant"
+                        },
+                        {
+                            "value": "s̠",
+                            "desc": "before a voiceless consonant"
+                        }
+                    ]
+                },
+                "γ": {
+                    "ipa": ""
+                },
+                "γγ": {
+                    "ipa": ""
+                },
+                "δ": {
+                    "ipa": ""
+                },
+                "νδ": {
+                    "ipa": ""
+                },
+                "χ": {
+                    "ipa": ""
+                },
+                "γχ": {
+                    "ipa": ""
+                },
+                "θ": {
+                    "ipa": ""
+                },
+                "φ": {
+                    "ipa": ""
+                },
+                "κ": {
+                    "ipa": ""
+                },
+                "γκ": {
+                    "ipa": ""
+                },
+                "τ": {
+                    "ipa": ""
+                },
+                "π": {
+                    "ipa": ""
+                },
+                "ρ": {
+                    "ipa": ""
+                },
+                "ξ": {
+                    "ipa": ""
+                },
+                "ψ": {
+                    "ipa": ""
+                },
+                "λ": {
+                    "ipa": "l"
+                },
+                "μ": {
+                    "ipa": "m"
+                },
+                "ν": {
+                    "ipa": "n"
+                },
+                "αυ": {
+                    "ipa": ""
+                },
+                "ευ": {
+                    "ipa": ""
+                },
+                "ου": {
+                    "ipa": ""
+                },
+                "αι": {
+                    "ipa": ""
+                },
+                "ει": {
+                    "ipa": ""
+                },
+                "υι": {
+                    "ipa": ""
+                },
+                "οι": {
+                    "ipa": ""
+                }
+            }
+        },
+        {
+            "shortname": "polis",
+            "name": [
+                "Polis Institute Erasmian",
+                "Erasmian"
+            ],
+            "desc": "This is a version of the Erasmian pronunciation modified to be easier for native English speakers to pronounce while still being more authentic and consistent than the US Conventional pronunciation. It fricativizes the aspirates, but does not palatalize them. It eliminates geminates and uses a stress accent, like US Conventional. This pronunciation claims to be accurate to the early Koine period.",
+            "pronunciation": {
+                "rough": {
+                    "ipa": "h"
+                },
+                "α": {
+                    "ipa": ""
+                },
+                "ε": {
+                    "ipa": ""
+                },
+                "ι": {
+                    "ipa": ""
+                },
+                "ο": {
+                    "ipa": ""
+                },
+                "υ": {
+                    "ipa": ""
+                },
+                "η": {
+                    "ipa": ""
+                },
+                "ω": {
+                    "ipa": ""
+                },
+                "β": {
+                    "ipa": ""
+                },
+                "μβ": {
+                    "ipa": ""
+                },
+                "ζ": {
+                    "ipa": ""
+                },
+                "σ": {
+                    "ipa": ""
+                },
+                "γ": {
+                    "ipa": ""
+                },
+                "γγ": {
+                    "ipa": ""
+                },
+                "δ": {
+                    "ipa": ""
+                },
+                "νδ": {
+                    "ipa": ""
+                },
+                "χ": {
+                    "ipa": ""
+                },
+                "γχ": {
+                    "ipa": ""
+                },
+                "θ": {
+                    "ipa": ""
+                },
+                "φ": {
+                    "ipa": ""
+                },
+                "κ": {
+                    "ipa": ""
+                },
+                "γκ": {
+                    "ipa": ""
+                },
+                "τ": {
+                    "ipa": ""
+                },
+                "π": {
+                    "ipa": ""
+                },
+                "ρ": {
+                    "ipa": ""
+                },
+                "ξ": {
+                    "ipa": ""
+                },
+                "ψ": {
+                    "ipa": ""
+                },
+                "λ": {
+                    "ipa": "l"
+                },
+                "μ": {
+                    "ipa": "m"
+                },
+                "ν": {
+                    "ipa": "n"
+                },
+                "αυ": {
+                    "ipa": ""
+                },
+                "ευ": {
+                    "ipa": ""
+                },
+                "ου": {
+                    "ipa": ""
+                },
+                "αι": {
+                    "ipa": ""
+                },
+                "ει": {
+                    "ipa": ""
+                },
+                "υι": {
+                    "ipa": ""
+                },
+                "οι": {
+                    "ipa": ""
+                }
+            }
+        },
+        {
+            "shortname": "usconv",
+            "name": [
+                "US Conventional",
+                "Erasmian"
+            ],
+            "desc": "Many Seminaries in the US use a heavily modified version of Erasmian that avoids any sounds that are difficult for speakers of American English to produce. Additionally, English has many loanwords from Greek, meaning that English has its own pronunciation for certain words inherited from Greek. This system will often borrow those pronunciations back into the Greek pronunciation. This system is not coherent, and will vary wildly depending on the English accent of the speaker. The values given below are an attempt to give a rough idea of how this system works. This pronunciation evolves some aspirates to their modern values, but often deaspirates χ. It diphthongizes many monophthongs when US English would do the same. π, τ, χ, and κ are often aspirated at the start of words, as in English.",
+            "pronunciation": {
+                "rough": {
+                    "ipa": "h"
+                },
+                "α": {
+                    "ipa": ""
+                },
+                "ε": {
+                    "ipa": ""
+                },
+                "ι": {
+                    "ipa": ""
+                },
+                "ο": {
+                    "ipa": ""
+                },
+                "υ": {
+                    "ipa": ""
+                },
+                "η": {
+                    "ipa": ""
+                },
+                "ω": {
+                    "ipa": ""
+                },
+                "β": {
+                    "ipa": ""
+                },
+                "μβ": {
+                    "ipa": ""
+                },
+                "ζ": {
+                    "ipa": [
+                        {
+                            "value": "dz",
+                            "desc": "within a word, inconsistently"
+                        },
+                        {
+                            "value": "z",
+                            "desc": "always at the beginning of a word, inconsistently within a word"
+                        }
+                    ]
+                },
+                "σ": {
+                    "ipa": [
+                        {
+                            "value": "z",
+                            "desc": "z and s are allophones in English, and thus in this pronunciation. The value used will often be the same one used in English."
+                        },
+                        {
+                            "value": "s",
+                            "desc": "z and s are allophones in English, and thus in this pronunciation. The value used will often be the same one used in English."
+                        }
+                    ]
+                },
+                "γ": {
+                    "ipa": "g"
+                },
+                "γγ": {
+                    "ipa": "ng"
+                },
+                "δ": {
+                    "ipa": "d"
+                },
+                "νδ": {
+                    "ipa": "nd"
+                },
+                "χ": {
+                    "ipa": ""
+                },
+                "γχ": {
+                    "ipa": ""
+                },
+                "θ": {
+                    "ipa": ""
+                },
+                "φ": {
+                    "ipa": "f"
+                },
+                "κ": {
+                    "ipa": "k"
+                },
+                "γκ": {
+                    "ipa": ""
+                },
+                "τ": {
+                    "ipa": "t"
+                },
+                "π": {
+                    "ipa": "p"
+                },
+                "ρ": {
+                    "ipa": ""
+                },
+                "ξ": {
+                    "ipa": "ks"
+                },
+                "ψ": {
+                    "ipa": "ps"
+                },
+                "λ": {
+                    "ipa": "ɫ"
+                },
+                "μ": {
+                    "ipa": "m"
+                },
+                "ν": {
+                    "ipa": "n"
+                },
+                "αυ": {
+                    "ipa": ""
+                },
+                "ευ": {
+                    "ipa": ""
+                },
+                "ου": {
+                    "ipa": ""
+                },
+                "αι": {
+                    "ipa": ""
+                },
+                "ει": {
+                    "ipa": ""
+                },
+                "υι": {
+                    "ipa": ""
+                },
+                "οι": {
+                    "ipa": ""
+                }
+            }
+        }
+    ]
+}
