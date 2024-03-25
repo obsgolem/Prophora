@@ -15,8 +15,10 @@
 </head>
 
 <body data-sveltekit-preload-data="hover">
-	<header class="pl-2">
-		<h1 class="text-4xl font-semibold">ΠΡΟΦΟΡΑΙ ἙΛΛΗΝΙΚΑΙ</h1>
+	<header class="sticky top-0 pl-2 bg-sky-500 text-slate-100 shadow flex flex-row">
+		<h1 class="py-1 text-4xl font-semibold grow">ΠΡΟΦΟΡΑΙ ἙΛΛΗΝΙΚΑΙ</h1>
+		<a class="py-1 text-xl font-semibold flex items-center px-5 hover:bg-sky-600">ΤΟΝΟΙ</a>
+		<a class="py-1 text-xl font-semibold flex items-center px-5 hover:bg-sky-600">ΧΡΟΝΟΣ</a>
 	</header>
 	<div style="display: contents">%sveltekit.body%</div>
 </body>

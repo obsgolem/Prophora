@@ -9,49 +9,64 @@
     let cclass: string;
     export { cclass as class };
 
+    export let rowClass: string;
+
     let nameData = letterMap[letter];
     let letterData = data.pronunciation[letter];
 </script>
 
-{#if Array.isArray(letterData.ipa)}
-    <tr>
-        <td rowspan={letterData.ipa.length} class={cclass}>
-            {letter}
-        </td>
-        <td title={letterData.ipa[0].desc} class={cclass}>
-            {letterData.ipa[0].value}
-        </td>
-        {#if nameData}
-            <td rowspan={letterData.ipa.length} class={cclass}>
-                {nameData.english}
-            </td>
-            <td rowspan={letterData.ipa.length} class={cclass}>
-                {nameData.greek}
-            </td>
-        {:else}
-            <td rowspan={letterData.ipa.length} class={cclass}></td>
-            <td rowspan={letterData.ipa.length} class={cclass}></td>
-        {/if}
-        <td rowspan={letterData.ipa.length} class={cclass}></td>
-    </tr>
-    {#each letterData.ipa.slice(1) as ipa}
+<tbody class={rowClass}>
+    {#if letterData.contextSensitive}
         <tr>
-            <td title={ipa.desc} class={cclass}>
-                {ipa.value}
+            <td rowspan={letterData.contextSensitive.length} class={cclass}>
+                {letter}
+            </td>
+            <td title={letterData.contextSensitive[0].desc} class={cclass}>
+                {letterData.contextSensitive[0].ipa}
+            </td>
+            {#if nameData}
+                <td rowspan={letterData.contextSensitive.length} class={cclass}>
+                    {nameData.english}
+                </td>
+                <td rowspan={letterData.contextSensitive.length} class={cclass}>
+                    {nameData.greek}
+                </td>
+            {:else}
+                <td rowspan={letterData.contextSensitive.length} class={cclass}
+                ></td>
+                <td rowspan={letterData.contextSensitive.length} class={cclass}
+                ></td>
+            {/if}
+            <td class={cclass}>
+                {letterData.contextSensitive[0].example
+                    ? letterData.contextSensitive[0].example
+                    : ""}
             </td>
         </tr>
-    {/each}
-{:else}
-    <tr>
-        <td class={cclass}>{letter}</td>
-        <td class={cclass}>{letterData.ipa}</td>
-        {#if nameData}
-            <td class={cclass}>{nameData.english}</td>
-            <td class={cclass}>{nameData.greek}</td>
-        {:else}
-            <td class={cclass}></td>
-            <td class={cclass}></td>
-        {/if}
-        <td class={cclass}></td>
-    </tr>
-{/if}
+        {#each letterData.contextSensitive.slice(1) as item}
+            <tr>
+                <td title={item.desc} class={cclass}>
+                    {item.ipa}
+                </td>
+                <td class={cclass}>
+                    {item.example ? item.example : ""}
+                </td>
+            </tr>
+        {/each}
+    {:else}
+        <tr>
+            <td class={cclass}>{letter}</td>
+            <td class={cclass}>{letterData.ipa}</td>
+            {#if nameData}
+                <td class={cclass}>{nameData.english}</td>
+                <td class={cclass}>{nameData.greek}</td>
+            {:else}
+                <td class={cclass}></td>
+                <td class={cclass}></td>
+            {/if}
+            <td class={cclass}
+                >{letterData.example ? letterData.example : ""}</td
+            >
+        </tr>
+    {/if}
+</tbody>
