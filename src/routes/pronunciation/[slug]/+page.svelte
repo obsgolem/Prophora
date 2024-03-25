@@ -48,8 +48,8 @@
     }
 
     :global(
-            .rounded-table tr th:first-child,
-            .rounded-table tr td:first-child
+            .rounded-table thead tr:first-child th:first-child,
+            .rounded-table tbody tr:first-child td:first-child
         ) {
         @apply border-l;
     }
