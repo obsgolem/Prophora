@@ -4,21 +4,27 @@
     import Row from "$lib/Row.svelte";
 </script>
 
-<div class="w-1/2 pl-4 py-4 space-y-4">
+<div class="pl-4 py-4 space-y-4">
     <div
         class="px-4 py-2 border text-pretty bg-sky-50 rounded border-slate-300"
     >
         <h2 class="text-2xl font-medium">{data.name[0]}</h2>
         {data.desc}
     </div>
-    <table class="text-lg w-full table-fixed rounded-table border-slate-300">
+    <table class="text-lg table-fixed rounded-table border-slate-300 w-fit">
         <thead class="bg-sky-200 shadow-2xl">
             <tr>
-                <th class="text-center border-slate-300">Letter</th>
-                <th class="text-center border-slate-300">IPA</th>
-                <th class="text-center border-slate-300">Name (English)</th>
-                <th class="text-center border-slate-300">Name (Greek)</th>
-                <th class="text-center border-slate-300">Example Word</th>
+                <th class="p-1 w-36 text-center border-slate-300">Letter</th>
+                <th class="p-1 w-36 text-center border-slate-300">IPA</th>
+                <th class="p-1 w-36 text-center border-slate-300"
+                    >Name (English)</th
+                >
+                <th class="p-1 w-36 text-center border-slate-300"
+                    >Name (Greek)</th
+                >
+                <th class="p-1 w-36 text-center border-slate-300"
+                    >Example Word</th
+                >
             </tr>
         </thead>
         {#if data.pronunciation}
@@ -26,7 +32,7 @@
                 <Row
                     {data}
                     {letter}
-                    class="py-1 text-center border-slate-300 hover:bg-blue-200"
+                    class="p-1 text-center border-slate-300 hover:bg-blue-200"
                     rowClass="even:bg-sky-50 odd:bg-sky-100"
                 />
             {/each}

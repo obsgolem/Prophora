@@ -153,34 +153,44 @@
                     "example": "ἵππος"
                 },
                 "α": {
-                    "ipa": "a"
+                    "ipa": "a",
+                    "example": "Ἀθήναζε"
                 },
                 "ε": {
-                    "ipa": "ɛ"
+                    "ipa": "ɛ",
+                    "example": "ἔχω"
                 },
                 "ι": {
-                    "ipa": "i"
+                    "ipa": "i",
+                    "example": "ἰχθύς"
                 },
                 "ο": {
-                    "ipa": "o̞"
+                    "ipa": "o̞",
+                    "example": "ὀλίγον"
                 },
                 "υ": {
-                    "ipa": "y"
+                    "ipa": "y",
+                    "example": "θυγάτηρ"
                 },
                 "η": {
-                    "ipa": "eː"
+                    "ipa": "eː",
+                    "example": "μήτηρ"
                 },
                 "ω": {
-                    "ipa": "o̞ː"
+                    "ipa": "o̞ː",
+                    "example": "ἐγώ"
                 },
                 "β": {
-                    "ipa": "β"
+                    "ipa": "β",
+                    "example": "βιβλίον"
                 },
                 "μβ": {
-                    "ipa": "mb"
+                    "ipa": "mb",
+                    "example": "μεσημβρία"
                 },
                 "ζ": {
-                    "ipa": "z̠ː"
+                    "ipa": "z̠ː",
+                    "example": "ζωή"
                 },
                 "σ": {
                     "contextSensitive": [
@@ -225,10 +235,12 @@
                     ]
                 },
                 "δ": {
-                    "ipa": "ð"
+                    "ipa": "ð",
+                    "example": "δάκτυλος"
                 },
                 "νδ": {
-                    "ipa": "nd"
+                    "ipa": "nd",
+                    "example": "ἔνδοξος"
                 },
                 "χ": {
                     "contextSensitive": [
@@ -259,10 +271,12 @@
                     ]
                 },
                 "θ": {
-                    "ipa": "θ"
+                    "ipa": "θ",
+                    "example": "θεραπεύω"
                 },
                 "φ": {
-                    "ipa": "ɸ"
+                    "ipa": "ɸ",
+                    "example": "φιλῶ"
                 },
                 "κ": {
                     "contextSensitive": [
@@ -293,10 +307,12 @@
                     ]
                 },
                 "τ": {
-                    "ipa": "t"
+                    "ipa": "t",
+                    "example": "τίνος"
                 },
                 "π": {
-                    "ipa": "p"
+                    "ipa": "p",
+                    "example": "πίπτω"
                 },
                 "ρ": {
                     "contextSensitive": [
@@ -313,19 +329,24 @@
                     ]
                 },
                 "ξ": {
-                    "ipa": "ks̠"
+                    "ipa": "ks̠",
+                    "example": "Σφίγξ"
                 },
                 "ψ": {
-                    "ipa": "ps̠"
+                    "ipa": "ps̠",
+                    "example": "ψυχή"
                 },
                 "λ": {
-                    "ipa": "l"
+                    "ipa": "l",
+                    "example": "λέγω"
                 },
                 "μ": {
-                    "ipa": "m"
+                    "ipa": "m",
+                    "example": "μῑκρός"
                 },
                 "ν": {
-                    "ipa": "n"
+                    "ipa": "n",
+                    "example": "νῦν"
                 },
                 "αυ": {
                     "contextSensitive": [
@@ -356,19 +377,24 @@
                     ]
                 },
                 "ου": {
-                    "ipa": "uː"
+                    "ipa": "uː",
+                    "example": "οὖς"
                 },
                 "αι": {
-                    "ipa": "æe̯̞"
+                    "ipa": "æe̯̞",
+                    "example": "Αἴγυπτος"
                 },
                 "ει": {
-                    "ipa": "iː"
+                    "ipa": "iː",
+                    "example": "εἷς"
                 },
                 "υι": {
-                    "ipa": "yː"
+                    "ipa": "yː",
+                    "example": "υἱός"
                 },
                 "οι": {
-                    "ipa": "ø̞y̯"
+                    "ipa": "ø̞y̯",
+                    "example": "οἰκία"
                 }
             }
         },
