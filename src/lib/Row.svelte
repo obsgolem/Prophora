@@ -27,24 +27,24 @@
             {#if nameData}
                 <td
                     rowspan={letterData.contextSensitive.length}
-                    class="hidden md:table-cell {cclass}"
+                    class="hidden sm:table-cell {cclass}"
                 >
                     {nameData.english}
                 </td>
                 <td
                     rowspan={letterData.contextSensitive.length}
-                    class="hidden md:table-cell {cclass}"
+                    class="hidden sm:table-cell {cclass}"
                 >
                     {nameData.greek}
                 </td>
             {:else}
                 <td
                     rowspan={letterData.contextSensitive.length}
-                    class="hidden md:table-cell {cclass}"
+                    class="hidden sm:table-cell {cclass}"
                 ></td>
                 <td
                     rowspan={letterData.contextSensitive.length}
-                    class="hidden md:table-cell {cclass}"
+                    class="hidden sm:table-cell {cclass}"
                 ></td>
             {/if}
             <td class={cclass}>
@@ -68,12 +68,12 @@
             <td class={cclass}>{letter}</td>
             <td class={cclass}>{letterData.ipa}</td>
             {#if nameData}
-                <td class="hidden md:table-cell {cclass}">{nameData.english}</td
+                <td class="hidden sm:table-cell {cclass}">{nameData.english}</td
                 >
-                <td class="hidden md:table-cell {cclass}">{nameData.greek}</td>
+                <td class="hidden sm:table-cell {cclass}">{nameData.greek}</td>
             {:else}
-                <td class="hidden md:table-cell {cclass}"></td>
-                <td class="hidden md:table-cell {cclass}"></td>
+                <td class="hidden sm:table-cell {cclass}"></td>
+                <td class="hidden sm:table-cell {cclass}"></td>
             {/if}
             <td class={cclass}
                 >{letterData.example ? letterData.example : ""}</td

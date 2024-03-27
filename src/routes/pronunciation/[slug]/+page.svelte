@@ -12,21 +12,25 @@
             <h2 class="text-2xl font-medium">{data.name[0]}</h2>
             {data.desc}
         </div>
-        <table class="text-lg table-fixed rounded-table border-slate-300">
+        <table
+            class="text-lg table-fixed w-full md:w-[720px] rounded-table border-slate-300"
+        >
             <thead class="bg-sky-200 shadow-2xl">
                 <tr>
-                    <th class="p-1 w-36 text-center border-slate-300">Letter</th
+                    <th class="p-1 md:w-36 text-center border-slate-300"
+                        >Letter</th
                     >
-                    <th class="p-1 w-36 text-center border-slate-300">IPA</th>
+                    <th class="p-1 md:w-36 text-center border-slate-300">IPA</th
+                    >
                     <th
-                        class="p-1 w-36 text-center border-slate-300 md:table-cell hidden"
+                        class="p-1 md:w-36 text-center border-slate-300 sm:table-cell hidden"
                         >Name (English)</th
                     >
                     <th
-                        class="p-1 w-36 text-center border-slate-300 md:table-cell hidden"
+                        class="p-1 md:w-36 text-center border-slate-300 sm:table-cell hidden"
                         >Name (Greek)</th
                     >
-                    <th class="p-1 w-36 text-center border-slate-300"
+                    <th class="p-1 md:w-36 text-center border-slate-300"
                         >Example Word</th
                     >
                 </tr>
