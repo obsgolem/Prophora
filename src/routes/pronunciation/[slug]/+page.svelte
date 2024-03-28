@@ -5,7 +5,7 @@
 </script>
 
 <div class="flex w-full justify-center">
-    <div class="md:pl-4 py-4 space-y-4 md:w-[720px]">
+    <div class="py-4 space-y-4 md:w-[720px]">
         <div
             class="px-4 py-2 border-t border-b md:border text-pretty bg-sky-50 md:rounded border-slate-300"
         >
@@ -40,7 +40,7 @@
                     <Row
                         {data}
                         {letter}
-                        class="p-1 text-center border-slate-300 hover:bg-blue-200"
+                        class="p-1 text-center border-slate-300 hover:bg-blue-200 active:bg-sky-300"
                         rowClass="even:bg-sky-50 odd:bg-sky-100"
                     />
                 {/each}
