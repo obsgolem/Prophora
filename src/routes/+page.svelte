@@ -18,7 +18,7 @@
     <title>ΠΡΟΦΟΡΑΙ ἙΛΛΗΝΙΚΑΙ</title>
 </svelte:head>
 
-<ul class="md:hidden flex flex-col w-full">
+<ul class="md:hidden flex flex-col w-full py-14">
     {#each pronunciations as pro}
         <li class="active:bg-sky-300 bg-sky-50 h-14 border-slate-300 border-b">
             <a
