@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1" />
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,16 +15,35 @@
 </head>
 
 <body data-sveltekit-preload-data="hover">
-	<header class="md:sticky top-0 bg-sky-500 text-slate-100 shadow flex flex-row h-14">
-		<h1
-			class="text-2xl xs:text-3xl sm:text-4xl font-semibold md:pl-2 grow flex items-center md:justify-normal justify-center">
-			<a href="/">ΠΡΟΦΟΡΑΙ
-				ἙΛΛΗΝΙΚΑΙ</a>
-		</h1>
-		<a class="hidden text-xl font-semibold md:flex items-center px-5 hover:bg-sky-600">ΤΟΝΟΙ</a>
-		<a class="hidden text-xl font-semibold md:flex items-center px-5 hover:bg-sky-600">ΧΡΟΝΟΣ</a>
-		<a class="hidden md:flex justify-center items-center px-5 hover:bg-sky-600"
-			href="https://github.com/obsgolem/Prophora"><img src="/github-mark-white.svg" class="h-10"></a>
+	<header class="z-40 fixed left-0 top-0 bg-sky-500 text-slate-100 shadow h-14 w-full">
+		<nav class="flex flex-row h-full">
+			<h1 class="text-4xl font-semibold pl-2 grow flex items-center justify-normal">
+				<a href="/" class="sm:hidden">ΠΡΟΦΟΡΑΙ</a>
+				<a href="/" class="hidden sm:block">ΠΡΟΦΟΡΑΙ ἙΛΛΗΝΙΚΑΙ</a>
+			</h1>
+
+			<input class="peer hidden" type="checkbox" id="mobile-menu" />
+			<label
+				class="md:hidden h-full flex items-center peer-checked:bg-sky-600 peer-checked:text-slate-50 px-2 text-4xl font-semibold before:content-[attr(unchecked)] peer-checked:before:content-[attr(checked)]"
+				for="mobile-menu" unchecked="☰" checked="&#x2715">
+			</label>
+
+			<ul class="hidden md:flex text-xl font-semibold h-full 
+				peer-checked:flex peer-checked:fixed peer-checked:left-0 peer-checked:top-14 peer-checked:bg-sky-600 peer-checked:w-full
+				peer-checked:flex-col peer-checked:h-auto peer-checked:*:h-14">
+				<li class="hover:bg-sky-600 active:bg-sky-700">
+					<a class="px-5 flex justify-center items-center h-full w-full" href="/length">ΧΡΟΝΟΣ</a>
+				</li>
+				<li class="hover:bg-sky-600 active:bg-sky-700">
+					<a class="px-5 flex justify-center items-center h-full w-full" href="/accent">ΤΟΝΟΙ</a>
+				</li>
+				<li class="hover:bg-sky-600 active:bg-sky-700">
+					<a class="px-5 flex justify-center items-center h-full w-full"
+						href="https://github.com/obsgolem/Prophora"><img src="/github-mark-white.svg" class="h-8"></a>
+				</li>
+
+			</ul>
+		</nav>
 	</header>
 	<div style="display: contents">%sveltekit.body%</div>
 </body>

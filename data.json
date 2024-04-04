@@ -10,145 +10,6 @@
             "desc": "This is the pronunciation at the end of the Attic period and the beginning of the Koine period. Compared to earlier Attic, it had lost the pronunciation of the long diphthongs. It preserves aspirates and gemination.",
             "pronunciation": {
                 "\u0314": {
-                    "ipa": "h"
-                },
-                "α": {
-                    "ipa": ""
-                },
-                "ε": {
-                    "ipa": ""
-                },
-                "ι": {
-                    "ipa": ""
-                },
-                "ο": {
-                    "ipa": ""
-                },
-                "υ": {
-                    "ipa": ""
-                },
-                "η": {
-                    "ipa": ""
-                },
-                "ω": {
-                    "ipa": ""
-                },
-                "β": {
-                    "ipa": ""
-                },
-                "μβ": {
-                    "ipa": ""
-                },
-                "ζ": {
-                    "ipa": ""
-                },
-                "σ": {
-                    "contextSensitive": [
-                        {
-                            "ipa": "z̠",
-                            "desc": "before a voiced consonant"
-                        },
-                        {
-                            "ipa": "s̠",
-                            "desc": "before a voiceless consonant"
-                        }
-                    ]
-                },
-                "γ": {
-                    "ipa": ""
-                },
-                "γγ": {
-                    "ipa": ""
-                },
-                "δ": {
-                    "ipa": ""
-                },
-                "νδ": {
-                    "ipa": ""
-                },
-                "χ": {
-                    "ipa": ""
-                },
-                "γχ": {
-                    "ipa": ""
-                },
-                "θ": {
-                    "ipa": ""
-                },
-                "φ": {
-                    "ipa": ""
-                },
-                "κ": {
-                    "ipa": ""
-                },
-                "γκ": {
-                    "ipa": ""
-                },
-                "τ": {
-                    "ipa": ""
-                },
-                "π": {
-                    "ipa": ""
-                },
-                "ρ": {
-                    "contextSensitive": [
-                        {
-                            "ipa": "r̥",
-                            "desc": "before/after consonant"
-                        },
-                        {
-                            "ipa": "ɾ",
-                            "desc": "between vowels"
-                        }
-                    ]
-                },
-                "ξ": {
-                    "ipa": "ks̠"
-                },
-                "ψ": {
-                    "ipa": "ps̠"
-                },
-                "λ": {
-                    "ipa": "l"
-                },
-                "μ": {
-                    "ipa": "m"
-                },
-                "ν": {
-                    "ipa": "n"
-                },
-                "αυ": {
-                    "ipa": ""
-                },
-                "ευ": {
-                    "ipa": ""
-                },
-                "ου": {
-                    "ipa": ""
-                },
-                "αι": {
-                    "ipa": ""
-                },
-                "ει": {
-                    "ipa": ""
-                },
-                "υι": {
-                    "ipa": ""
-                },
-                "οι": {
-                    "ipa": ""
-                }
-            }
-        },
-        {
-            "shortname": "samluc",
-            "name": [
-                "Lucian - Samosatene",
-                "Lucian"
-            ],
-            "desc": "This variant of the Lucian pronunciation is intended to represent a roughly 2nd century A.D. pronunciation of greek. It notably preserves phonemic vowel and consonant length, takes the aspirates to their modern values, and leaves most vowels and diphthongs at various intermediate points.",
-            "pronunciation": {
-                "\u0314": {
                     "ipa": "h",
                     "example": "ἵππος"
                 },
@@ -157,7 +18,7 @@
                     "example": "Ἀθήναζε"
                 },
                 "ε": {
-                    "ipa": "ɛ",
+                    "ipa": "e̞",
                     "example": "ἔχω"
                 },
                 "ι": {
@@ -173,138 +34,72 @@
                     "example": "θυγάτηρ"
                 },
                 "η": {
-                    "ipa": "eː",
+                    "ipa": "ɛː",
                     "example": "μήτηρ"
                 },
                 "ω": {
-                    "ipa": "o̞ː",
+                    "ipa": "ɔː",
                     "example": "ἐγώ"
                 },
                 "β": {
-                    "ipa": "β",
+                    "ipa": "b",
                     "example": "βιβλίον"
                 },
-                "μβ": {
-                    "ipa": "mb",
-                    "example": "μεσημβρία"
-                },
                 "ζ": {
-                    "ipa": "z̠ː",
+                    "ipa": "zd",
                     "example": "ζωή"
                 },
                 "σ": {
                     "contextSensitive": [
                         {
                             "ipa": "z̠",
+                            "ipaAudio": "audio/josiah/lucian/ζ.m4a",
                             "example": "κόσμος",
                             "desc": "before a voiced consonant"
                         },
                         {
                             "ipa": "s̠",
+                            "ipaAudio": "audio/josiah/lucian/σ.m4a",
                             "example": "ἐστιν",
                             "desc": "before a voiceless consonant or a vowel"
                         }
                     ]
                 },
                 "γ": {
-                    "contextSensitive": [
-                        {
-                            "ipa": "ɣ",
-                            "example": "λόγος",
-                            "desc": "before α, ο, ου (back vowels)"
-                        },
-                        {
-                            "ipa": "ʝ",
-                            "example": "γῆ",
-                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
-                        }
-                    ]
+                    "ipa": "g",
+                    "example": "λόγος"
                 },
                 "γγ": {
-                    "contextSensitive": [
-                        {
-                            "ipa": "ŋg",
-                            "example": "",
-                            "desc": "before α, ο, ου (back vowels)"
-                        },
-                        {
-                            "ipa": "ɲɟ",
-                            "example": "ἄγγελος",
-                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
-                        }
-                    ]
+                    "ipa": "ŋg",
+                    "example": "ἄγγος"
                 },
                 "δ": {
-                    "ipa": "ð",
+                    "ipa": "d",
                     "example": "δάκτυλος"
                 },
-                "νδ": {
-                    "ipa": "nd",
-                    "example": "ἔνδοξος"
-                },
                 "χ": {
-                    "contextSensitive": [
-                        {
-                            "ipa": "x",
-                            "example": "χάρις",
-                            "desc": "before α, ο, ου (back vowels)"
-                        },
-                        {
-                            "ipa": "ç",
-                            "example": "χοῖρος",
-                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
-                        }
-                    ]
+                    "ipa": "kʰ",
+                    "example": "χάρις"
                 },
                 "γχ": {
-                    "contextSensitive": [
-                        {
-                            "ipa": "ŋx",
-                            "example": "τυγχάνω",
-                            "desc": "before α, ο, ου (back vowels)"
-                        },
-                        {
-                            "ipa": "ɲç",
-                            "example": "λελόγχῃς",
-                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
-                        }
-                    ]
+                    "ipa": "ŋkʰ",
+                    "example": "τυγχάνω"
                 },
                 "θ": {
-                    "ipa": "θ",
+                    "ipa": "tʰ",
                     "example": "θεραπεύω"
                 },
                 "φ": {
-                    "ipa": "ɸ",
+                    "ipa": "pʰ",
                     "example": "φιλῶ"
                 },
                 "κ": {
-                    "contextSensitive": [
-                        {
-                            "ipa": "k",
-                            "example": "ἀκολουθῶ",
-                            "desc": "before α, ο, ου (back vowels)"
-                        },
-                        {
-                            "ipa": "c",
-                            "example": "κύριος",
-                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
-                        }
-                    ]
+                    "ipa": "k",
+                    "example": "ἀκολουθῶ"
                 },
                 "γκ": {
-                    "contextSensitive": [
-                        {
-                            "ipa": "ŋk",
-                            "example": "ἤνεγκα",
-                            "desc": "before α, ο, ου (back vowels)"
-                        },
-                        {
-                            "ipa": "ɲc",
-                            "example": "ἀνάγκη",
-                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
-                        }
-                    ]
+                    "ipa": "ŋk",
+                    "example": "ἤνεγκα"
                 },
                 "τ": {
                     "ipa": "t",
@@ -318,11 +113,13 @@
                     "contextSensitive": [
                         {
                             "ipa": "r̥",
+                            "ipaAudio": "audio/josiah/lucian/ρ1.m4a",
                             "example": "πρός",
                             "desc": "before/after consonant, or at the beginning of a word"
                         },
                         {
                             "ipa": "ɾ",
+                            "ipaAudio": "audio/josiah/lucian/ρ2.m4a",
                             "example": "ἐρωτῶ",
                             "desc": "between vowels"
                         }
@@ -349,14 +146,330 @@
                     "example": "νῦν"
                 },
                 "αυ": {
+                    "ipa": "au̯",
+                    "example": "αὔλιον"
+                },
+                "ευ": {
+                    "ipa": "eu̯",
+                    "example": "εὐλογῶ"
+                },
+                "ου": {
+                    "ipa": "uː",
+                    "example": "οὖς"
+                },
+                "αι": {
+                    "ipa": "ai̯",
+                    "example": "Αἴγυπτος"
+                },
+                "ει": {
+                    "ipa": "eː",
+                    "example": "εἷς"
+                },
+                "υι": {
+                    "ipa": "yi̯",
+                    "example": "υἱός"
+                },
+                "οι": {
+                    "ipa": "oi̯",
+                    "example": "οἰκία"
+                }
+            }
+        },
+        {
+            "shortname": "samluc",
+            "name": [
+                "Lucian - Samosatene",
+                "Lucian"
+            ],
+            "desc": "This variant of the Lucian pronunciation is intended to represent a roughly 2nd century A.D. pronunciation of greek. It notably preserves phonemic vowel and consonant length, takes the aspirates to their modern values, and leaves most vowels and diphthongs at various intermediate points.",
+            "pronunciation": {
+                "\u0314": {
+                    "ipa": "h",
+                    "ipaAudio": "audio/josiah/lucian/h.m4a",
+                    "exampleAudio": "audio/josiah/lucian/ιππος.m4a",
+                    "example": "ἵππος"
+                },
+                "α": {
+                    "ipa": "a",
+                    "ipaAudio": "audio/josiah/lucian/α.m4a",
+                    "exampleAudio": "audio/josiah/lucian/αθηναζε.m4a",
+                    "example": "Ἀθήναζε"
+                },
+                "ε": {
+                    "ipa": "ɛ",
+                    "ipaAudio": "audio/josiah/lucian/ε.m4a",
+                    "exampleAudio": "audio/josiah/lucian/εχω.m4a",
+                    "example": "ἔχω"
+                },
+                "ι": {
+                    "ipa": "i",
+                    "ipaAudio": "audio/josiah/lucian/ι.m4a",
+                    "exampleAudio": "audio/josiah/lucian/ιχθυς.m4a",
+                    "example": "ἰχθύς"
+                },
+                "ο": {
+                    "ipa": "o̞",
+                    "ipaAudio": "audio/josiah/lucian/ο.m4a",
+                    "exampleAudio": "audio/josiah/lucian/ολιγον.m4a",
+                    "example": "ὀλίγον"
+                },
+                "υ": {
+                    "ipa": "y",
+                    "ipaAudio": "audio/josiah/lucian/υ.m4a",
+                    "exampleAudio": "audio/josiah/lucian/θυγατηρ.m4a",
+                    "example": "θυγάτηρ"
+                },
+                "η": {
+                    "ipa": "eː",
+                    "ipaAudio": "audio/josiah/lucian/η.m4a",
+                    "exampleAudio": "audio/josiah/lucian/μητηρ.m4a",
+                    "example": "μήτηρ"
+                },
+                "ω": {
+                    "ipa": "o̞ː",
+                    "ipaAudio": "audio/josiah/lucian/ω.m4a",
+                    "exampleAudio": "audio/josiah/lucian/εγω.m4a",
+                    "example": "ἐγώ"
+                },
+                "β": {
+                    "ipa": "β",
+                    "ipaAudio": "audio/josiah/lucian/β.m4a",
+                    "exampleAudio": "audio/josiah/lucian/βιβλιον.m4a",
+                    "example": "βιβλίον"
+                },
+                "μβ": {
+                    "ipa": "mb",
+                    "ipaAudio": "audio/josiah/lucian/μβ.m4a",
+                    "exampleAudio": "audio/josiah/lucian/μεσημβρια.m4a",
+                    "example": "μεσημβρία"
+                },
+                "ζ": {
+                    "ipa": "z̠ː",
+                    "ipaAudio": "audio/josiah/lucian/ζ.m4a",
+                    "exampleAudio": "audio/josiah/lucian/ζωη.m4a",
+                    "example": "ζωή"
+                },
+                "σ": {
+                    "contextSensitive": [
+                        {
+                            "ipa": "z̠",
+                            "ipaAudio": "audio/josiah/lucian/ζ.m4a",
+                            "exampleAudio": "audio/josiah/lucian/κοσμος.m4a",
+                            "example": "κόσμος",
+                            "desc": "before a voiced consonant"
+                        },
+                        {
+                            "ipa": "s̠",
+                            "ipaAudio": "audio/josiah/lucian/σ.m4a",
+                            "exampleAudio": "audio/josiah/lucian/εστιν.m4a",
+                            "example": "ἐστιν",
+                            "desc": "before a voiceless consonant or a vowel"
+                        }
+                    ]
+                },
+                "γ": {
+                    "contextSensitive": [
+                        {
+                            "ipa": "ɣ",
+                            "exampleAudio": "audio/josiah/lucian/λογος.m4a",
+                            "example": "λόγος",
+                            "desc": "before α, ο, ου (back vowels)"
+                        },
+                        {
+                            "ipa": "ʝ",
+                            "exampleAudio": "audio/josiah/lucian/γη.m4a",
+                            "example": "γῆ",
+                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
+                        }
+                    ]
+                },
+                "γγ": {
+                    "contextSensitive": [
+                        {
+                            "ipa": "ŋg",
+                            "ipaAudio": "audio/josiah/lucian/γγ1.m4a",
+                            "exampleAudio": "audio/josiah/lucian/",
+                            "example": "ἄγγος",
+                            "desc": "before α, ο, ου (back vowels)"
+                        },
+                        {
+                            "ipa": "ɲɟ",
+                            "ipaAudio": "audio/josiah/lucian/γγ2.m4a",
+                            "exampleAudio": "audio/josiah/lucian/αγγελος.m4a",
+                            "example": "ἄγγελος",
+                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
+                        }
+                    ]
+                },
+                "δ": {
+                    "ipa": "ð",
+                    "ipaAudio": "audio/josiah/lucian/δ.m4a",
+                    "exampleAudio": "audio/josiah/lucian/",
+                    "example": "δάκτυλος"
+                },
+                "νδ": {
+                    "ipa": "nd",
+                    "ipaAudio": "audio/josiah/lucian/νδ.m4a",
+                    "exampleAudio": "audio/josiah/lucian/ενδοξος.m4a",
+                    "example": "ἔνδοξος"
+                },
+                "χ": {
+                    "contextSensitive": [
+                        {
+                            "ipa": "x",
+                            "ipaAudio": "audio/josiah/lucian/χ1.m4a",
+                            "exampleAudio": "audio/josiah/lucian/χαρις.m4a",
+                            "example": "χάρις",
+                            "desc": "before α, ο, ου (back vowels)"
+                        },
+                        {
+                            "ipa": "ç",
+                            "ipaAudio": "audio/josiah/lucian/χ2.m4a",
+                            "exampleAudio": "audio/josiah/lucian/χοιρος.m4a",
+                            "example": "χοῖρος",
+                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
+                        }
+                    ]
+                },
+                "γχ": {
+                    "contextSensitive": [
+                        {
+                            "ipa": "ŋx",
+                            "ipaAudio": "audio/josiah/lucian/γχ1.m4a",
+                            "exampleAudio": "audio/josiah/lucian/τυνχανω.m4a",
+                            "example": "τυγχάνω",
+                            "desc": "before α, ο, ου (back vowels)"
+                        },
+                        {
+                            "ipa": "ɲç",
+                            "ipaAudio": "audio/josiah/lucian/γχ2.m4a",
+                            "exampleAudio": "audio/josiah/lucian/λελογχης.m4a",
+                            "example": "λελόγχῃς",
+                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
+                        }
+                    ]
+                },
+                "θ": {
+                    "ipa": "θ",
+                    "ipaAudio": "audio/josiah/lucian/θ.m4a",
+                    "exampleAudio": "audio/josiah/lucian/θεραπευω.m4a",
+                    "example": "θεραπεύω"
+                },
+                "φ": {
+                    "ipa": "ɸ",
+                    "ipaAudio": "audio/josiah/lucian/φ.m4a",
+                    "exampleAudio": "audio/josiah/lucian/φιλω.m4a",
+                    "example": "φιλῶ"
+                },
+                "κ": {
+                    "contextSensitive": [
+                        {
+                            "ipa": "k",
+                            "ipaAudio": "audio/josiah/lucian/κ1.m4a",
+                            "exampleAudio": "audio/josiah/lucian/ακολουθω.m4a",
+                            "example": "ἀκολουθῶ",
+                            "desc": "before α, ο, ου (back vowels)"
+                        },
+                        {
+                            "ipa": "c",
+                            "ipaAudio": "audio/josiah/lucian/κ2.m4a",
+                            "exampleAudio": "audio/josiah/lucian/κυριος.m4a",
+                            "example": "κύριος",
+                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
+                        }
+                    ]
+                },
+                "γκ": {
+                    "contextSensitive": [
+                        {
+                            "ipa": "ŋk",
+                            "ipaAudio": "audio/josiah/lucian/γκ1.m4a",
+                            "exampleAudio": "audio/josiah/lucian/ηνεγκα.m4a",
+                            "example": "ἤνεγκα",
+                            "desc": "before α, ο, ου (back vowels)"
+                        },
+                        {
+                            "ipa": "ɲc",
+                            "ipaAudio": "audio/josiah/lucian/γκ2.m4a",
+                            "exampleAudio": "audio/josiah/lucian/αναγκη.m4a",
+                            "example": "ἀνάγκη",
+                            "desc": "before ι, υ, ε, η, αι, οι, υι (front vowels)"
+                        }
+                    ]
+                },
+                "τ": {
+                    "ipa": "t",
+                    "ipaAudio": "audio/josiah/lucian/τ.m4a",
+                    "exampleAudio": "audio/josiah/lucian/τινος.m4a",
+                    "example": "τίνος"
+                },
+                "π": {
+                    "ipa": "p",
+                    "ipaAudio": "audio/josiah/lucian/π.m4a",
+                    "exampleAudio": "audio/josiah/lucian/πιπτω.m4a",
+                    "example": "πίπτω"
+                },
+                "ρ": {
+                    "contextSensitive": [
+                        {
+                            "ipa": "r̥",
+                            "ipaAudio": "audio/josiah/lucian/ρ1.m4a",
+                            "exampleAudio": "audio/josiah/lucian/προς.m4a",
+                            "example": "πρός",
+                            "desc": "before/after consonant, or at the beginning of a word"
+                        },
+                        {
+                            "ipa": "ɾ",
+                            "ipaAudio": "audio/josiah/lucian/ρ2.m4a",
+                            "exampleAudio": "audio/josiah/lucian/ερωτω.m4a",
+                            "example": "ἐρωτῶ",
+                            "desc": "between vowels"
+                        }
+                    ]
+                },
+                "ξ": {
+                    "ipa": "ks̠",
+                    "ipaAudio": "audio/josiah/lucian/ξ.m4a",
+                    "exampleAudio": "audio/josiah/lucian/σφιγξ.m4a",
+                    "example": "Σφίγξ"
+                },
+                "ψ": {
+                    "ipa": "ps̠",
+                    "ipaAudio": "audio/josiah/lucian/ψ.m4a",
+                    "exampleAudio": "audio/josiah/lucian/ψυχη.m4a",
+                    "example": "ψυχή"
+                },
+                "λ": {
+                    "ipa": "l",
+                    "ipaAudio": "audio/josiah/lucian/λ.m4a",
+                    "exampleAudio": "audio/josiah/lucian/λεγω.m4a",
+                    "example": "λέγω"
+                },
+                "μ": {
+                    "ipa": "m",
+                    "ipaAudio": "audio/josiah/lucian/μ.m4a",
+                    "exampleAudio": "audio/josiah/lucian/μικρος.m4a",
+                    "example": "μῑκρός"
+                },
+                "ν": {
+                    "ipa": "n",
+                    "ipaAudio": "audio/josiah/lucian/ν.m4a",
+                    "exampleAudio": "audio/josiah/lucian/νυν.m4a",
+                    "example": "νῦν"
+                },
+                "αυ": {
                     "contextSensitive": [
                         {
                             "ipa": "aβʷ",
+                            "ipaAudio": "audio/josiah/lucian/αυ1.m4a",
+                            "exampleAudio": "audio/josiah/lucian/αυλιον.m4a",
                             "example": "αὔλιον",
                             "desc": "before a voiced consonant"
                         },
                         {
                             "ipa": "aɸʷ",
+                            "ipaAudio": "audio/josiah/lucian/αυ2.m4a",
+                            "exampleAudio": "audio/josiah/lucian/αυτος.m4a",
                             "example": "αὐτός",
                             "desc": "before a voiceless consonant"
                         }
@@ -366,11 +479,15 @@
                     "contextSensitive": [
                         {
                             "ipa": "e̞βʷ",
+                            "ipaAudio": "audio/josiah/lucian/ευ1.m4a",
+                            "exampleAudio": "audio/josiah/lucian/ευλογω.m4a",
                             "example": "εὐλογῶ",
                             "desc": "before a voiced consonant or a vowel"
                         },
                         {
                             "ipa": "e̞ɸʷ",
+                            "ipaAudio": "audio/josiah/lucian/ευ2.m4a",
+                            "exampleAudio": "audio/josiah/lucian/ευτυχης.m4a",
                             "example": "εὐτυχής",
                             "desc": "before a voiceless consonant"
                         }
@@ -378,22 +495,32 @@
                 },
                 "ου": {
                     "ipa": "uː",
+                    "ipaAudio": "audio/josiah/lucian/ου.m4a",
+                    "exampleAudio": "audio/josiah/lucian/ους.m4a",
                     "example": "οὖς"
                 },
                 "αι": {
                     "ipa": "æe̯̞",
+                    "ipaAudio": "audio/josiah/lucian/αι.m4a",
+                    "exampleAudio": "audio/josiah/lucian/αιγυπτος.m4a",
                     "example": "Αἴγυπτος"
                 },
                 "ει": {
                     "ipa": "iː",
+                    "ipaAudio": "audio/josiah/lucian/ει.m4a",
+                    "exampleAudio": "audio/josiah/lucian/εις.m4a",
                     "example": "εἷς"
                 },
                 "υι": {
                     "ipa": "yː",
+                    "ipaAudio": "audio/josiah/lucian/υι.m4a",
+                    "exampleAudio": "audio/josiah/lucian/υιος.m4a",
                     "example": "υἱός"
                 },
                 "οι": {
                     "ipa": "ø̞y̯",
+                    "ipaAudio": "audio/josiah/lucian/οι.m4a",
+                    "exampleAudio": "audio/josiah/lucian/οικια.m4a",
                     "example": "οἰκία"
                 }
             }
