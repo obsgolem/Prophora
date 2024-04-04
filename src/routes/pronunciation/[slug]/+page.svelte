@@ -10,7 +10,7 @@
 </svelte:head>
 
 <div class="flex w-full justify-center">
-    <div class="py-4 sm:space-y-4 md:w-[720px] group">
+    <div class="py-20 sm:space-y-4 md:w-[720px] group">
         <div
             class="px-4 py-2 border-t border-b md:border text-pretty bg-sky-50 md:rounded border-slate-300"
         >
