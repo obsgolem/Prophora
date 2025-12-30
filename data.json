@@ -530,10 +530,22 @@
             "name": [
                 "Buthian"
             ],
-            "desc": "This is the standard variant of the Buthian pronunciation. It evolves all letters to their modern values, except for οι, υ and η, which it leaves with late Koine values. The rough breathing remains pronounced. All vowel and consonant lengths are ignored. It reasonably represents the pronunciation of some Greek speakers in the 2nd century A.D., and the majority of Greek speakers in the Byzantine period. Note that speakers of Buthian frequently do not observe allophonic rules like voicing of σ before voiced consonants.",
+            "desc": "This is the standard variant of the Buthian pronunciation. It evolves all letters to their modern values, except for οι, υ and η, which it leaves with late Koine values. The rough breathing is unpronounced, except optionally at the start of phrases. All vowel and consonant lengths are ignored. It reasonably represents the pronunciation of some Greek speakers in the 2nd century A.D., and the majority of Greek speakers in the Byzantine period. Some of the sound changes may date to the 1st century or earlier. Note that speakers of Buthian frequently do not observe allophonic rules like voicing of σ before voiced consonants.",
             "pronunciation": {
                 "\u0314": {
-                    "ipa": "Ø"
+                    "contextSensitive": [
+                        {
+                            "ipa": "Ø",
+                            "desc": "in connected speech"
+                        },
+                        {
+                            "ipa": "h",
+                            "ipaAudio": "audio/josiah/lucian/h.m4a",
+                            "exampleAudio": "audio/josiah/lucian/ιππος.m4a",
+                            "example": "ἵππος",
+                            "desc": "after a pause"
+                        }
+                    ]
                 },
                 "α": {
                     "ipa": "a"
