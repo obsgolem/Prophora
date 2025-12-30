@@ -57,11 +57,11 @@
                 {letter}
                 cellClass="font-semibold border-slate-300 hover:bg-blue-200 active:bg-sky-300"
                 rowClass="even:bg-sky-50 odd:bg-sky-100"
-                buttonClass="p-1 w-full h-full"
+                buttonClass="p-1 w-full h-full select-text"
                 nonButtonClass="p-1 w-full h-full flex justify-center items-center text-center"
                 englishCellClass=""
                 greekCellClass=""
-                ipaCellClass=""
+                ipaCellClass="font-ipa"
                 exampleCellClass=""
                 letterCellClass="sticky left-0 {index % 2 === 0
                     ? 'bg-sky-50'

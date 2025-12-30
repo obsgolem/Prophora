@@ -33,13 +33,13 @@
         />
 
         <menu
-            class="sm:hidden h-14 flex flex-row text-xl font-medium text-slate-600"
+            class="sm:hidden h-14 flex flex-row text-xl font-medium text-slate-600 mt-6 bg-sky-50 border-slate-300 border-t"
         >
             <li
                 class="group-has-[#letter-pronunciations-menu:checked]:border-b-4 group-has-[#letter-pronunciations-menu:checked]:text-slate-950 border-slate-300 flex-1 h-full"
             >
                 <label
-                    class="w-full h-full flex items-center justify-center"
+                    class="w-full h-full flex items-center justify-center text-center"
                     for="letter-pronunciations-menu"
                     >Letter Pronunciations</label
                 >
@@ -48,7 +48,7 @@
                 class="group-has-[#letter-names-menu:checked]:border-b-4 group-has-[#letter-names-menu:checked]:text-slate-950 border-slate-300 flex-1 h-full"
             >
                 <label
-                    class="w-full h-full flex items-center justify-center"
+                    class="w-full h-full flex items-center justify-center text-center"
                     for="letter-names-menu">Letter Names</label
                 >
             </li>
@@ -86,11 +86,11 @@
                     {letter}
                     cellClass="font-semibold border-slate-300 hover:bg-blue-200 active:bg-sky-300"
                     rowClass="even:bg-sky-50 odd:bg-sky-100"
-                    buttonClass="p-1 w-full h-full"
+                    buttonClass="p-1 w-full h-full select-text"
                     nonButtonClass="p-1 w-full h-full flex justify-center items-center text-center"
                     englishCellClass="max-sm:group-has-[#letter-pronunciations-menu:checked]:hidden"
                     greekCellClass="max-sm:group-has-[#letter-pronunciations-menu:checked]:hidden"
-                    ipaCellClass="max-sm:group-has-[#letter-names-menu:checked]:hidden"
+                    ipaCellClass="max-sm:group-has-[#letter-names-menu:checked]:hidden font-ipa"
                     exampleCellClass="max-sm:group-has-[#letter-names-menu:checked]:hidden"
                 />
             {/each}
