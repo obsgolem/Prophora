@@ -15,7 +15,7 @@
 </script>
 
 <svelte:head>
-    <title>ΠΡΟΦΟΡΑΙ ἙΛΛΗΝΙΚΑΙ</title>
+    <title>ΠΡΟΦΟΡΑΙ ΕΛΛΗΝΙΚΑΙ</title>
 </svelte:head>
 
 <ul class="md:hidden flex flex-col w-full py-14">

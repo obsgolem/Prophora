@@ -67,6 +67,7 @@
         {#each letterDatas.entries() as [index, letterData]}
             {#if TableCols.IPA in enabledColumns}
                 <td
+                    title={letterData.contextSensitive[0].desc}
                     rowspan={computeRowSpan(rowspan, rowSpans[index])}
                     class="{ipaCellClass} {cellClass}"
                     ><button
