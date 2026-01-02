@@ -34,6 +34,14 @@
                 wasn't pronounced by that point. The long dipthongs would likely
                 have had a long initial vowel followed by a glide.
             </p>
+            <p>
+                Greek also had so-called geminated consonants. Any time a ρ
+                began a word, or two of the same letter were adjacent, the
+                sounds were held longer. For ρ, this meant a using a trill
+                instead of a tap. For stops, this meant pausing momentarily
+                before releasing the stop. For fricatives this meant simply
+                producing the fricative for longer.
+            </p>
             <p class="indent-4">
                 Not all the systems listed on this website use this feature.
                 This feature had started to weaken in some dialects sometime in

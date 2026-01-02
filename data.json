@@ -4,10 +4,195 @@
             "shortname": "recattic",
             "name": [
                 "Reconstructed Attic",
+                "Classical Attic"
+            ],
+            "desc": "This is the pronunciation reconstructed for most of the Attic period. It preserves aspirates, gemination, and the long dipthongs.",
+            "pronunciation": {
+                "\u0314": {
+                    "ipa": "h",
+                    "example": "ἵππος"
+                },
+                "α": {
+                    "ipa": "a",
+                    "example": "Ἀθήναζε"
+                },
+                "ε": {
+                    "ipa": "e̞",
+                    "example": "ἔχω"
+                },
+                "ι": {
+                    "ipa": "i",
+                    "example": "ἰχθύς"
+                },
+                "ο": {
+                    "ipa": "o̞",
+                    "example": "ὀλίγον"
+                },
+                "υ": {
+                    "ipa": "u",
+                    "example": "θυγάτηρ"
+                },
+                "η": {
+                    "ipa": "ɛː",
+                    "example": "μήτηρ"
+                },
+                "ω": {
+                    "ipa": "ɔː",
+                    "example": "ἐγώ"
+                },
+                "β": {
+                    "ipa": "b",
+                    "example": "βιβλίον"
+                },
+                "ζ": {
+                    "ipa": "zd",
+                    "example": "ζωή"
+                },
+                "σ": {
+                    "contextSensitive": [
+                        {
+                            "ipa": "z̠",
+                            "ipaAudio": "audio/josiah/lucian/ζ.m4a",
+                            "example": "κόσμος",
+                            "desc": "before a voiced consonant"
+                        },
+                        {
+                            "ipa": "s̠",
+                            "ipaAudio": "audio/josiah/lucian/σ.m4a",
+                            "example": "ἐστιν",
+                            "desc": "before a voiceless consonant or a vowel"
+                        }
+                    ]
+                },
+                "γ": {
+                    "ipa": "g",
+                    "example": "λόγος"
+                },
+                "γγ": {
+                    "ipa": "ŋg",
+                    "example": "ἄγγος"
+                },
+                "δ": {
+                    "ipa": "d",
+                    "example": "δάκτυλος"
+                },
+                "χ": {
+                    "ipa": "kʰ",
+                    "example": "χάρις"
+                },
+                "γχ": {
+                    "ipa": "ŋkʰ",
+                    "example": "τυγχάνω"
+                },
+                "θ": {
+                    "ipa": "tʰ",
+                    "example": "θεραπεύω"
+                },
+                "φ": {
+                    "ipa": "pʰ",
+                    "example": "φιλῶ"
+                },
+                "κ": {
+                    "ipa": "k",
+                    "example": "ἀκολουθῶ"
+                },
+                "γκ": {
+                    "ipa": "ŋk",
+                    "example": "ἤνεγκα"
+                },
+                "τ": {
+                    "ipa": "t",
+                    "example": "τίνος"
+                },
+                "π": {
+                    "ipa": "p",
+                    "example": "πίπτω"
+                },
+                "ρ": {
+                    "contextSensitive": [
+                        {
+                            "ipa": "r̥",
+                            "ipaAudio": "audio/josiah/lucian/ρ1.m4a",
+                            "example": "πρός",
+                            "desc": "before/after consonant, or at the beginning of a word"
+                        },
+                        {
+                            "ipa": "ɾ",
+                            "ipaAudio": "audio/josiah/lucian/ρ2.m4a",
+                            "example": "ἐρωτῶ",
+                            "desc": "between vowels"
+                        }
+                    ]
+                },
+                "ξ": {
+                    "ipa": "ks̠",
+                    "example": "Σφίγξ"
+                },
+                "ψ": {
+                    "ipa": "ps̠",
+                    "example": "ψυχή"
+                },
+                "λ": {
+                    "ipa": "l",
+                    "example": "λέγω"
+                },
+                "μ": {
+                    "ipa": "m",
+                    "example": "μῑκρός"
+                },
+                "ν": {
+                    "ipa": "n",
+                    "example": "νῦν"
+                },
+                "αυ": {
+                    "ipa": "au̯",
+                    "example": "αὔλιον"
+                },
+                "ευ": {
+                    "ipa": "eu̯",
+                    "example": "εὐλογῶ"
+                },
+                "ου": {
+                    "ipa": "oː",
+                    "example": "οὖς"
+                },
+                "αι": {
+                    "ipa": "ai̯",
+                    "example": "Αἴγυπτος"
+                },
+                "ει": {
+                    "ipa": "eː",
+                    "example": "εἷς"
+                },
+                "υι": {
+                    "ipa": "yi̯",
+                    "example": "υἱός"
+                },
+                "οι": {
+                    "ipa": "oi̯",
+                    "example": "οἰκία"
+                },
+                "ῳ": {
+                    "ipa": "ɔːi̯",
+                    "example": "σῴζω"
+                },
+                "ᾳ": {
+                    "ipa": "aːi̯",
+                    "example": "ῥᾴθυμος"
+                },
+                "ῃ": {
+                    "ipa": "ɛːi̯",
+                    "example": "λῃστής"
+                }
+            }
+        },
+        {
+            "shortname": "lateattic",
+            "name": [
                 "Late Classical Attic",
                 "Early Koine"
             ],
-            "desc": "This is the pronunciation at the end of the Attic period and the beginning of the Koine period. Compared to earlier Attic, it had lost the pronunciation of the long diphthongs. It preserves aspirates and gemination.",
+            "desc": "This is the pronunciation at the end of the Attic period and the beginning of the Koine period. Compared to earlier Attic, it had lost the pronunciation of the long diphthongs and it shifted the pronunciation of ου and υ so that ου was no longer the long version of ο. It preserves aspirates and gemination.",
             "pronunciation": {
                 "\u0314": {
                     "ipa": "h",
@@ -172,6 +357,18 @@
                 "οι": {
                     "ipa": "oi̯",
                     "example": "οἰκία"
+                },
+                "ῳ": {
+                    "ipa": "ɔː",
+                    "example": "σῴζω"
+                },
+                "ᾳ": {
+                    "ipa": "aː",
+                    "example": "ῥᾴθυμος"
+                },
+                "ῃ": {
+                    "ipa": "ɛː",
+                    "example": "λῃστής"
                 }
             }
         },
@@ -530,6 +727,18 @@
                     "ipaAudio": "audio/josiah/lucian/οι.m4a",
                     "exampleAudio": "audio/josiah/lucian/οικια.m4a",
                     "example": "οἰκία"
+                },
+                "ῳ": {
+                    "ipa": "o̞ː",
+                    "example": "σῴζω"
+                },
+                "ᾳ": {
+                    "ipa": "aː",
+                    "example": "ῥᾴθυμος"
+                },
+                "ῃ": {
+                    "ipa": "eː",
+                    "example": "λῃστής"
                 }
             }
         },
@@ -775,6 +984,18 @@
                 },
                 "οι": {
                     "ipa": "y"
+                },
+                "ῳ": {
+                    "ipa": "o̞",
+                    "example": "σῴζω"
+                },
+                "ᾳ": {
+                    "ipa": "a",
+                    "example": "ῥᾴθυμος"
+                },
+                "ῃ": {
+                    "ipa": "e",
+                    "example": "λῃστής"
                 }
             }
         },
@@ -1007,6 +1228,18 @@
                 },
                 "οι": {
                     "ipa": "i"
+                },
+                "ῳ": {
+                    "ipa": "o̞",
+                    "example": "σῴζω"
+                },
+                "ᾳ": {
+                    "ipa": "a",
+                    "example": "ῥᾴθυμος"
+                },
+                "ῃ": {
+                    "ipa": "e̞",
+                    "example": "λῃστής"
                 }
             }
         },
@@ -1181,6 +1414,18 @@
                 "οι": {
                     "ipa": "oi̯",
                     "example": "οἰκία"
+                },
+                "ῳ": {
+                    "ipa": "ɔː",
+                    "example": "σῴζω"
+                },
+                "ᾳ": {
+                    "ipa": "aː",
+                    "example": "ῥᾴθυμος"
+                },
+                "ῃ": {
+                    "ipa": "e̞ː",
+                    "example": "λῃστής"
                 }
             }
         },
@@ -1357,6 +1602,18 @@
                 "οι": {
                     "ipa": "oi̯",
                     "example": "οἰκία"
+                },
+                "ῳ": {
+                    "ipa": "o̞",
+                    "example": "σῴζω"
+                },
+                "ᾳ": {
+                    "ipa": "a",
+                    "example": "ῥᾴθυμος"
+                },
+                "ῃ": {
+                    "ipa": "e̞",
+                    "example": "λῃστής"
                 }
             }
         },
@@ -1415,7 +1672,7 @@
                     "ipa": "u"
                 },
                 "η": {
-                    "ipa": "e "
+                    "ipa": "e"
                 },
                 "ω": {
                     "ipa": "o"
@@ -1596,6 +1853,28 @@
                 },
                 "οι": {
                     "ipa": "oi̯"
+                },
+                "ῳ": {
+                    "ipa": "o",
+                    "example": "σῴζω"
+                },
+                "ᾳ": {
+                    "contextSensitive": [
+                        {
+                            "ipa": "a",
+                            "desc": "inconsistently",
+                            "example": "ῥᾴθυμος"
+                        },
+                        {
+                            "ipa": "æ",
+                            "desc": "inconsistently",
+                            "example": "ῥᾴθυμος"
+                        }
+                    ]
+                },
+                "ῃ": {
+                    "ipa": "e",
+                    "example": "λῃστής"
                 }
             }
         }
